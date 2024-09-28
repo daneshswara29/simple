@@ -68,7 +68,7 @@ cd
 ```
 - Step 3 INSTALL, NOTE jika sudah root langsung COPAS link dibawah ini saja ya
 ```
-sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/daneshswara29/simple/main/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
+sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/daneshswara29/simple/main/setup.sh && chmod +x setup.sh && ./setup.sh
 ```
 
 # Buat root di VPS bagi kamu yang login ke server masih menggunakan username yang bukan root
