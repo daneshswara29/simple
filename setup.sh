@@ -20,65 +20,6 @@ tyblue() { echo -e "\\033[36;1m${*}\\033[0m"; }
 yellow() { echo -e "\\033[33;1m${*}\\033[0m"; }
 green() { echo -e "\\033[32;1m${*}\\033[0m"; }
 red() { echo -e "\\033[31;1m${*}\\033[0m"; }
-cat <<EOF>> /etc/rmbl/theme/green
-BG : \E[40;1;42m
-TEXT : \033[0;32m
-EOF
-cat <<EOF>> /etc/rmbl/theme/yellow
-BG : \E[40;1;43m
-TEXT : \033[0;33m
-EOF
-cat <<EOF>> /etc/rmbl/theme/red
-BG : \E[40;1;41m
-TEXT : \033[0;31m
-EOF
-cat <<EOF>> /etc/rmbl/theme/blue
-BG : \E[40;1;44m
-TEXT : \033[0;34m
-EOF
-cat <<EOF>> /etc/rmbl/theme/magenta
-BG : \E[40;1;45m
-TEXT : \033[0;35m
-EOF
-cat <<EOF>> /etc/rmbl/theme/cyan
-BG : \E[40;1;46m
-TEXT : \033[0;36m
-EOF
-cat <<EOF>> /etc/rmbl/theme/lightgray
-BG : \E[40;1;47m
-TEXT : \033[0;37m
-EOF
-cat <<EOF>> /etc/rmbl/theme/darkgray
-BG : \E[40;1;100m
-TEXT : \033[0;90m
-EOF
-cat <<EOF>> /etc/rmbl/theme/lightred
-BG : \E[40;1;101m
-TEXT : \033[0;91m
-EOF
-cat <<EOF>> /etc/rmbl/theme/lightgreen
-BG : \E[40;1;102m
-TEXT : \033[0;92m
-EOF
-cat <<EOF>> /etc/rmbl/theme/lightyellow
-BG : \E[40;1;103m
-TEXT : \033[0;93m
-EOF
-cat <<EOF>> /etc/rmbl/theme/lightblue
-BG : \E[40;1;104m
-TEXT : \033[0;94m
-EOF
-cat <<EOF>> /etc/rmbl/theme/lightmagenta
-BG : \E[40;1;105m
-TEXT : \033[0;95m
-EOF
-cat <<EOF>> /etc/rmbl/theme/lightcyan
-BG : \E[40;1;106m
-TEXT : \033[0;96m
-EOF
-cat <<EOF>> /etc/rmbl/theme/color.conf
-lightcyan
-EOF
 # domain random
 CDN="https://raw.githubusercontent.com/daneshswara29/simple/main/ssh"
 cd /root
