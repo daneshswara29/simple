@@ -145,7 +145,6 @@ clear
     sleep 2
     clear
 fi
-}
 cat <<EOF>> /etc/rmbl/theme/green
 BG : \E[40;1;42m
 TEXT : \033[0;32m
